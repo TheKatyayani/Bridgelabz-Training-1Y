@@ -7,7 +7,7 @@ public class Volume_of_a_Cylinder{
 		float radius = sc.nextFloat();
 		float height = sc.nextFloat();
 		
-		float volume = (22/7) * (radius*radius) * height;
+		double volume = (3.14) * (radius*radius) * height;
 		
 		System.out.println("Volume is "+ volume );
 		}
