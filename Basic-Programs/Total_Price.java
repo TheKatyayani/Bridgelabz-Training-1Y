@@ -4,7 +4,7 @@ public class Total_Price{
       public static void main(String[] args){
 	    Scanner sc = new Scanner(System.in);
 		
-		System.out.println("enetr the price of one item and quantity  :");
+		System.out.println("enetr the unit_price of one item and quantity  :");
 		float unit_price = sc.nextFloat();
 		int quantity = sc.nextInt();
 		
