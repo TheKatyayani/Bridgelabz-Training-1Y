@@ -8,14 +8,19 @@ public class Factorial{
 	   int n1=sc.nextInt();
 	   int factorial = 1;
 	   int i=1;
-  
-	  while(i<n1+1){
-	  factorial = factorial*i;
+       
+	   if(n1>0){
+	   while(i<n1+1){
+	   factorial = factorial*i;
+	   i++;
+	   }
+	   System.out.println("Factorial of " + n1 + " is " + factorial);
+	   
+	   }else if (n1<0){
+	   System.out.println("Factorial for negative number is not possible.");
+	   }else {
+	   System.out.println("Factorial of " + n1 + " is " + factorial);
+	   }
 	  
-	  i++;
-
-	  }
-	  
-	  System.out.println("Factorial of " + n1 + " is " + factorial);
 }
 }
