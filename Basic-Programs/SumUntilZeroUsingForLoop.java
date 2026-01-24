@@ -20,6 +20,6 @@ public class SumUntilZeroUsingForLoop{
 	   
 	  }
 	  
-	  System.out.println("Total sum untill zero is " + sum);
+	  System.out.println("Total sum until zero is " + sum);
 }
 }
