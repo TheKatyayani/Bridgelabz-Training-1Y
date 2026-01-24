@@ -5,14 +5,17 @@ public class SumUntilZero{
 	   
 	   Scanner sc = new Scanner(System.in);
 	   
+	   
 	   double n1=sc.nextDouble();;
 	   double sum =0;
 	  
 	  while(n1!=0){
-	 //  n1 = sc.nextDouble();
-	  
-	  sum = n1 + sum;
-	 
+		  sum = sum + n1;
+		  
+		  System.out.println("Enter number again for the sum : ");
+	     
+ 		  n1 = sc.nextDouble();
+	
 	   
 	  }
 	  
