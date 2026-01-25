@@ -7,11 +7,25 @@ public class OddAndEven{
 	   
 	   int n1 = sc.nextInt();
 	   
-	   if(n1%2==0 && n1>=1){
-	      System.out.println("User given number " + n1 + " is even number.");
-	   }else{
-	      System.out.println("User given number " + n1 + " is odd number.");
+	   if(n1>0 ){
+		   if(n1%2==0){
+	            for(int i=1;i<n1+1;i++){
+			       if(i%2==0){
+				   System.out.println("Even number till "+ n1 + " contain " + i);
+				   }
+				}
+		   }else{
+		  
+                for(int j=1;j<n1+1;j++){
+                   if(j%2 !=0){
+				   System.out.println("Odd number till "+ n1 + " contain " + j);
+                   }
+				}
+		   }
+			
+	    }else{
+	    System.out.println("'Number is not natural number.");
 	   }
-	   
-}
+	   }
+
 }
