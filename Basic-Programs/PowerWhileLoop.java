@@ -23,5 +23,5 @@ public class PowerWhileLoop{
 		System.out.println("The number "+ n + " with power "+ power + " result is " + result);
 		
 		
-	   }
+	  }
 }
