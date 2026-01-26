@@ -21,5 +21,5 @@ public class SumUntilZeroUsingForLoop{
 	  }
 	  
 	  System.out.println("Total sum until zero or negative number is " + sum);
-}
+ }
 }
