@@ -18,7 +18,7 @@ public class OddAndEven{
 		  
                 for(int j=1;j<n1+1;j++){
                    if(j%2 !=0){
-				   System.out.println("Odd number till "+ n1 + " contain " + j);
+				   System.out.println("Odd number till "+ n1 + "  " + j);
                    }
 				}
 		   }

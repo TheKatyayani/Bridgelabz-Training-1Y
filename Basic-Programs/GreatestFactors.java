@@ -19,7 +19,7 @@ public class GreatestFactors{
 			
 			}
 		}else{
-			System.out.println("YOU given number is not positive integer.");
+			System.out.println("Your given number is not positive integer.");
 		}
 		
 		System.out.println("From the factors of "+  n1 + " , it's greatest factor is " + max);
