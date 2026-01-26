@@ -11,8 +11,8 @@ public class SwitchCase{
 			System.out.println("Enter and Choose an operator from them \n+ , - , * , /");
 			String operators = sc.nextLine();
 			       operators = sc.nextLine();           // because after nextInt i have used two nextLine because   
-			                                            //nextint will consumed the next leading space so the this command will skip so ,
-														//have to usde again this line nextLine(); 
+			                                            //nextint will consumed the next leading space so one of this command will skip so ,
+														//have to use again this line nextLine(); 
 			switch (operators){
 				case "+":
 				int sum = n1 + n2;
