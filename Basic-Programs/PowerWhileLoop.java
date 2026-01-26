@@ -9,12 +9,12 @@ public class PowerWhileLoop{
 	   int power = sc.nextInt();
 	   int n = sc.nextInt();
 	   int result = 1;
-	   int i=1;
+	   int counter = 0;
 	    
 		if(n>0 && power>0){
-			while(i<=power){
+			while(counter<power){
                 result = result*n;
-		        i++;
+		        counter++;
 			}
 		}else{
 			System.out.println("Your given number is not positive integer.");

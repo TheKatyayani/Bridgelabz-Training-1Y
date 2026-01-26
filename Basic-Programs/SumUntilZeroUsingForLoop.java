@@ -10,7 +10,7 @@ public class SumUntilZeroUsingForLoop{
 	   double sum =0;
 	  
 	 
-	   for(double i= n1;i !=0;){   
+	   for(double i= n1;i !=0 && i>0;){   
 		  sum = sum + i;
 		  
 		  System.out.println("Enter number again for the sum : ");
@@ -20,6 +20,6 @@ public class SumUntilZeroUsingForLoop{
 	   
 	  }
 	  
-	  System.out.println("Total sum until zero is " + sum);
+	  System.out.println("Total sum until zero or negative number is " + sum);
 }
 }

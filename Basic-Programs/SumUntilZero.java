@@ -9,12 +9,12 @@ public class SumUntilZero{
 	   double n1=sc.nextDouble();;
 	   double sum =0;
 	  
-	  while(n1!=0){
+	    for(double i=n1;i!=0;){
 		  sum = sum + n1;
 		  
 		  System.out.println("Enter number again for the sum : ");
 	     
- 		  n1 = sc.nextDouble();
+ 		  i = sc.nextDouble();
 	
 	   
 	  }
