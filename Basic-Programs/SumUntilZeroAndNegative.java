@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumUntilZeroUsingForLoop{
+public class SumUntilZeroAndNegative{
        public static void main(String [] args){
 	   
 	   Scanner sc = new Scanner(System.in);
@@ -10,12 +10,12 @@ public class SumUntilZeroUsingForLoop{
 	   double sum =0;
 	  
 	 
-	   for(double i= n1;i !=0 && i>0;){   
-		  sum = sum + i;
+	   while(n1 !=0 && n1>0){   
+		  sum = sum + n1;
 		  
 		  System.out.println("Enter number again for the sum : ");
 	     
- 		  i = sc.nextDouble();
+ 		  n1 = sc.nextDouble();
 	
 	   
 	  }
