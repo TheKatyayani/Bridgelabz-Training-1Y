@@ -3,7 +3,7 @@ public class FizzBuzzArray{
     public static void main(String[] args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a positive integer: ");
+        System.out.print("Enter A positive Integer: ");
         int number = sc.nextInt();
 
         if (number <= 0) {
