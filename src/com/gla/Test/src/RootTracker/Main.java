@@ -3,7 +3,9 @@ package RootTracker;
 public class Main {
     public static void main(String[] args) {
 
+
         Driver d = new Driver("D1204", "Kavita Nair");
+
 
         d.routeHistory.addCheckpoint(
                 new DeliveryCheckpoint("C1", "Warehouse A", 30, 60, 70));
@@ -14,8 +16,10 @@ public class Main {
         d.routeHistory.addCheckpoint(
                 new RestCheckpoint("C3", "Motel X", 10, 20, 35));
 
-        d.routeHistory.addCheckpoint(
-                new DeliveryCheckpoint("C4", "Client Hub", 60, 50, 65));
+
+        System.out.println("Saving to database...");
+        d.routeHistory.saveCheckpointsToDB();
+
 
         d.printSummary();
     }

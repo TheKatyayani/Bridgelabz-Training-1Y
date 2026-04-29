@@ -1,5 +1,3 @@
-package RootTracker;
-
 public abstract class Checkpoint {
     String checkpointId;
     String locationName;

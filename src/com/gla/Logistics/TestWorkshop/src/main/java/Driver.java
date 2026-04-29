@@ -1,7 +1,3 @@
-package RootTracker;
-
-
-
 public class Driver {
     // These should be public or have getters so Main can see them if needed
     public String driverId;
